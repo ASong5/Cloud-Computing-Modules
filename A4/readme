@@ -1,0 +1,22 @@
+# Andrew Song - 1204822
+# Assignment 4
+# CIS4010
+# 03/26/23
+
+Notes and Limitations
+- For task 1, the requested file will begin downloading immediately
+- For task 2, the following documentation was used as a guideline: https://docs.aws.amazon.com/lambda/latest/dg/python-image.html#python-image-create
+- The bucket where the trigger is listening in is "1204822-subscribe/files"
+- Logs are placed in the following path: "1204822-subscribe/logs"
+- The distribution list is a simple text file with the names of the users, and is placed in the root of the bucket
+- If the bucket does not exist, it creates it with a prefix of a uniquely generated ID
+
+Usage: 
+- Task 1
+   - Upload the zip file to deploy the lambda function
+   - Access the following endpoint in your browser, with the query parameters shown in the URL format below
+   - URL format: https://ba9l0i65rj.execute-api.ca-central-1.amazonaws.com/default/lambdaftp?bucket=<bucket_name>&filename=<path_to_file>
+      - where <bucket_name> is the name of the bucket and <path_to_file> is the path to the file
+
+- Task 2
+   - Upload a file to the "1204822-subscribe/files" folder to trigger the lambda function

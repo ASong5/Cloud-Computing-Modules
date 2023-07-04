@@ -1,0 +1,46 @@
+Date Stamp: 2023-03-17:16:12:00
+System Admin Name: pundrew
+
+Name: linuxServer01
+Purpose: webserver
+Team: Toronto Office Web Grls
+OS: linux
+resource-group: images
+image: Debian
+location: canadacentral
+admin-username: azureuser
+Status of the VM "VM running"
+
+
+Name: winServer01
+Purpose: office apps
+Team: Toronto Office Web Guys
+OS: windows
+resource-group: images
+image: Win2019Datacenter
+location: canadacentral
+admin-username: azureuser
+admin-password: !Password1234
+Status of the VM "VM running"
+
+
+Name: linuxserver01
+Project: Web Presence Canada
+Purpose: webserver
+Team: Toronto Office Web Team
+OS: linux
+image: debian-10-buster-v20210916
+image-project: debian-cloud
+zone: northamerica-northeast2-a
+Status of the VM RUNNING
+
+Name: winserver01
+Project: Containers Are Us
+Purpose: containers
+Team: Toronto Office Container Team
+OS: windows
+image: windows-server-2019-dc-core-for-containers-v20211012
+image-project: windows-cloud
+zone: northamerica-northeast2-b
+Status of the VM RUNNING
+
