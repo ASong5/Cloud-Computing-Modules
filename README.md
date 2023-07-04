@@ -15,7 +15,7 @@ Library of modules to work with AWS DynamoDB. The suite of functions found in th
 
 # A3
 
-Automation script for the dynamic generation of GCP and Azure VMs. Given a file with various input parameters, the script can connect to GCP and Azure and fire up VMs seamlessly and without any work by the user. Once the script terminates, a report log is generated with any necessary information about the VM creation.
+Automation script for the dynamic generation of GCP and Azure VMs. Given a file with various input parameters, the script can connect to GCP and Azure and can generate and fire up VMs seamlessly and without any work by the user. Once the script terminates, a report log is generated with any necessary information about the VM creation.
 
 # A4
 
