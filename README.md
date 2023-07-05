@@ -19,4 +19,4 @@ Automation script for the dynamic generation of GCP and Azure VMs. Given a file 
 
 # A4
 
-Docker container running on AWS lambda to allow for subscribed users of an S3 bucket to automatically receive their own copy of objects that are transferred into the bucket.
+AWS lambda handler deployed via docker container image to allow for subscribed users of an S3 bucket to automatically receive their own copy of objects that are transferred into the bucket.
